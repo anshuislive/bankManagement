@@ -1,0 +1,31 @@
+import java.util.*;
+public class bankManagementMainClass{
+    public static void main(String args[]){
+        int a,e=0,f,g=0;
+        double b=0;
+        String c="";
+        char d=0;
+        Scanner ab = new Scanner(System.in);
+        while(true){
+            System.out.println("Main Menu");
+            System.out.println("1: Open New Account");
+            System.out.println("2: Deposit Account");
+            System.out.println("3: Withdraw Account");
+            System.out.println("4: Check Balance");
+            System.out.println("5: List All Accounts");
+            System.out.println("6: Exit");
+            System.out.println("Make Your Choice (1-6)");
+            a=ab.nextInt();
+            switch(a){
+                case 1: System.out.println("Enter acc. number: ");
+                b=ab.nextDouble();
+                System.out.println("Enter Acc Holder Name:");
+                c=ab.next();
+                System.out.println("Enter Balance");
+                e=ab.nextInt();
+                System.out.println("Account Opened");
+                
+            }
+        }
+    }
+}
